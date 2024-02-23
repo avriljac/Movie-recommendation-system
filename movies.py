@@ -1,21 +1,7 @@
-"""
-Movie Recommendation System
-
-This script recommends the next movie to watch based on a given movie description.
-
-Dependencies:
-- spacy
-- scikit-learn
-
-Usage:
-Run this script using Python 3:
-    python movies.py
-"""
 
 import spacy
 from sklearn.metrics.pairwise import cosine_similarity
 
-pip install scikit-learn
 
 # Load spaCy model
 nlp = spacy.load('en_core_web_md')
